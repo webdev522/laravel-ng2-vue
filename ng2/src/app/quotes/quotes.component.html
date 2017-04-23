@@ -1,0 +1,4 @@
+
+<button class="btn btn-primary" (click)="onGetQuotes()">Get Quotes</button>
+<hr>
+<app-quote *ngFor="let quote of quotes" [quote]="quote"></app-quote>
